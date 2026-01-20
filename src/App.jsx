@@ -1,8 +1,11 @@
+import React from 'react';
+import Navbar from './components/Navbar';
+
 function App() {
     return (
         <>
-            <div className="w-full h-screen text-center pt-16 text-white bg-black">
-                <h1 className="text-4xl font-bold">Hello Wrold!</h1>
+            <div className="main w-full min-h-screen text-white bg-[#0F0D0D] font-zando overflow-hidden">
+                <Navbar />
             </div>
         </>
     );
