@@ -1,7 +1,9 @@
 import React from 'react';
+import LocomotiveScroll from 'locomotive-scroll';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Video from './components/video';
+
+const locomotiveScroll = new LocomotiveScroll();
 
 function App() {
     return (
@@ -9,7 +11,6 @@ function App() {
             <div className="main w-full min-h-screen text-white bg-[#0F0D0D] font-zando overflow-hidden">
                 <Navbar />
                 <Hero />
-                <Video />
             </div>
         </>
     );
