@@ -2,16 +2,17 @@ import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import { TbHandLittleFinger } from 'react-icons/tb';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
+
     useEffect(() => {
         const tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '#head-line',
                 scroller: 'body',
-
-                start: 'top 27%',
+                start: 'top 30%',
                 end: 'top 0%',
                 scrub: 2,
             },
@@ -38,11 +39,10 @@ const Hero = () => {
             },
             'animate'
         );
-
         tl.to(
             '#video-div video',
             {
-                width: '90%',
+                width: '86%',
             },
             'animate'
         );
@@ -80,7 +80,7 @@ const Hero = () => {
 
             <div id='video-div' className="w-full">
                 <video
-                    className="relative left-[50%] w-[50%] -translate-x-[50%] mt-[12vw]"
+                    className="relative left-[50%] w-[50%] -translate-x-[50%] my-[12vw]"
                     autoPlay
                     loop
                     muted
