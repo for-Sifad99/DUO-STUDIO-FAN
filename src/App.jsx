@@ -9,10 +9,11 @@ const locomotiveScroll = new LocomotiveScroll();
 function App() {
     return (
         <>
-            <div className="main w-full min-h-screen text-white bg-[#0F0D0D] font-zando overflow-hidden">
+            <div className="main w-full min-h-screen font-zando overflow-hidden">
                 <Navbar />
                 <Hero />
                 <Studio />
+                <div className='h-screen w-full'></div>
             </div>
         </>
     );

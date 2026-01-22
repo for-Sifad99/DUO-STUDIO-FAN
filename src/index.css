@@ -6,6 +6,12 @@
 
 /* font family style */
 .font-zando {
-  font-family: "Zalando Sans Expanded", sans-serif;
-  font-style: normal;
+    font-family: 'Zalando Sans Expanded', sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: #0f0d0d;
+    color: white;
+        transition: none;
 }

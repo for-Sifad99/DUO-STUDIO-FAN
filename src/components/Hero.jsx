@@ -6,7 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
-
+    
     useEffect(() => {
         const tl = gsap.timeline({
             scrollTrigger: {
@@ -14,7 +14,7 @@ const Hero = () => {
                 scroller: 'body',
                 start: 'top 30%',
                 end: 'top 0%',
-                scrub: 2,
+                scrub: 3,
             },
         });
 
@@ -78,9 +78,9 @@ const Hero = () => {
                 on Baltimore, work with client world-wide.
             </p>
 
-            <div id='video-div' className="w-full">
+            <div id="video-div" className="w-full">
                 <video
-                    className="relative left-[50%] w-[50%] -translate-x-[50%] my-[12vw]"
+                    className="relative left-[50%] w-[50%] -translate-x-[50%] mt-[12vw]"
                     autoPlay
                     loop
                     muted
