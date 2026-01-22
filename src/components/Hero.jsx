@@ -6,7 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
-    
+
     useEffect(() => {
         const tl = gsap.timeline({
             scrollTrigger: {
@@ -77,16 +77,6 @@ const Hero = () => {
                 narraives that showcase the full extent of your potential, Based
                 on Baltimore, work with client world-wide.
             </p>
-
-            <div id="video-div" className="w-full">
-                <video
-                    className="relative left-[50%] w-[50%] -translate-x-[50%] mt-[12vw]"
-                    autoPlay
-                    loop
-                    muted
-                    src="./duo-reel-video.mp4"
-                ></video>
-            </div>
         </div>
     );
 };

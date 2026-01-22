@@ -2,6 +2,7 @@ import React from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Video from './components/Video';
 import Studio from './components/Studio';
 
 const locomotiveScroll = new LocomotiveScroll();
@@ -12,6 +13,7 @@ function App() {
             <div className="main w-full min-h-screen font-zando overflow-hidden">
                 <Navbar />
                 <Hero />
+                <Video />
                 <Studio />
                 <div className='h-screen w-full'></div>
             </div>

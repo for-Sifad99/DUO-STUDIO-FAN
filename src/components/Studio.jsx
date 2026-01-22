@@ -22,7 +22,7 @@ const Studio = () => {
     }, []);
 
     return (
-        <div id="studio" className="w-full h-screen py-[11vw] px-[6.5vw]">
+        <div id="studio" className="w-full h-screen py-[11vw] px-[6.5vw] border-b border-zinc-700">
             <h2
                 id="head-text"
                 className="text-[4vw] tracking-tight font-semibold"
