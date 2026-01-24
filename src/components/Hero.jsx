@@ -18,13 +18,6 @@ const Hero = () => {
         });
 
         tl.to(
-            '#top-head',
-            {
-                scale: 1,
-            },
-            'animate'
-        );
-        tl.to(
             '#left-head',
             {
                 x: -100,
