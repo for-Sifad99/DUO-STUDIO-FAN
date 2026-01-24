@@ -11,7 +11,7 @@ const locomotiveScroll = new LocomotiveScroll();
 function App() {
     return (
         <>
-            <div className="main w-full min-h-screen font-zando overflow-hidden">
+            <div className="main w-full min-h-screen font-PPMori overflow-hidden">
                 <Navbar />
                 <Hero />
                 <Video />

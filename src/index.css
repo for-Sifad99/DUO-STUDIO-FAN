@@ -1,14 +1,54 @@
-/* Font cdn */
-@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
-
 /* Tailwind cdn */
 @import 'tailwindcss';
 
-/* font family style */
-.font-zando {
-    font-family: 'Zalando Sans Expanded', sans-serif;
-    font-style: normal;
+/* PPMori ExtraLight */
+@font-face {
+  font-family: 'PPMori';
+  src: url('/fonts/PPMori-Extralight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
 }
+
+/* PPMori ExtraLight Italic */
+@font-face {
+  font-family: 'PPMori';
+  src: url('/fonts/PPMori-ExtralightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+/* PPMori Regular */
+@font-face {
+  font-family: 'PPMori';
+  src: url('/fonts/PPMori-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* PPMori Regular Italic */
+@font-face {
+  font-family: 'PPMori';
+  src: url('/fonts/PPMori-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* PPMori SemiBold */
+@font-face {
+  font-family: 'PPMori';
+  src: url('/fonts/PPMori-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* PPMori SemiBold Italic */
+@font-face {
+  font-family: 'PPMori';
+  src: url('/fonts/PPMori-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
 
 body {
     background-color: #0f0d0d;

@@ -25,7 +25,7 @@ const Studio = () => {
         <div id="studio" className="w-full min-h-screen py-[11vw] px-[6.5vw] border-b border-zinc-700">
             <h2
                 id="head-text"
-                className="text-[6vw] tracking-tight font-semibold"
+                className="text-[6vw] tracking-tight font-medium"
             >
                 Duo Studio
             </h2>
@@ -34,7 +34,7 @@ const Studio = () => {
                 className="w-full h-[70%] flex items-center justify-between mt-[5vw]"
             >
                 <div id="left-text" className="w-[40%]">
-                    <h1 className="text-[3.5vw] font-normal tracking-tighter leading-11 mt-auto">
+                    <h1 className="text-[3.5vw] font-normal tracking-tighter leading-12 mt-auto">
                         A CREATIVE COLLECTIVE MADE TO UNLOCK YOUR BRANDS'S
                         POTENTIAL
                     </h1>
@@ -43,7 +43,7 @@ const Studio = () => {
                     id="right-text"
                     className="flex flex-col justify-between gap-3 w-[22%] h-[80%] mt-auto"
                 >
-                    <p className="text-[1.4vw] font-normal tracking-tighter leading-4">
+                    <p className="text-[1.4vw] font-medium tracking-tight leading-4.5">
                         We weave togather bold strategy and creative execution
                         to produce throught-provoking digital experiences. We
                         take a highly personalized approach to delivering

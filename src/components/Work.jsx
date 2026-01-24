@@ -6,8 +6,8 @@ const Work = () => {
             id="selected-works"
             className="w-full min-h-screen py-[11vw] px-[6.5vw] border-b border-zinc-700"
         >
-            <h2 className="text-[6vw] font-medium leading-10">Selecetd</h2>
-            <h2 className="text-[6vw] font-medium">Works</h2>
+            <h2 className="text-[6vw] font-medium tracking-tight leading-10">Selecetd</h2>
+            <h2 className="text-[6vw] font-medium tracking-tight">Works</h2>
             <div>
                 <div className="relative w-full flex justify-between">
                     <div className="w-[50%] h-[40%]">
@@ -20,7 +20,7 @@ const Work = () => {
                             <h3 className="mt-3 text-2xl font-medium tracking-tighter">
                                 MGNY
                             </h3>
-                            <p className="text-sm tracking-tight leading-4">
+                            <p className="text-base tracking-tight leading-4">
                                 Brand Strategy, Website, Creative Direction,
                                 Illustration
                             </p>
@@ -40,7 +40,7 @@ const Work = () => {
                             <h3 className="mt-3 text-2xl font-medium tracking-tighter">
                                 MadeGood
                             </h3>
-                            <p className="text-sm tracking-tight leading-4">
+                            <p className="text-base tracking-tight leading-4">
                                 Brand Strategy, Website
                             </p>
                         </div>
@@ -62,8 +62,8 @@ const Work = () => {
                             <h3 className="mt-3 text-2xl font-medium tracking-tighter">
                                 Cruefilms
                             </h3>
-                            <p className="text-sm tracking-tight leading-4">
-                                Brand Strategy, Website
+                            <p className="text-base tracking-tight leading-4">
+                                Brand Stratext-basetegy, Website
                             </p>
                         </div>
                     </div>
@@ -77,14 +77,14 @@ const Work = () => {
                             <h3 className="mt-3 text-2xl font-medium tracking-tighter">
                                 Finturity
                             </h3>
-                            <p className="text-sm tracking-tight leading-4">
+                            <p className="text-base tracking-tight leading-4">
                                 Brand Strategy, Brand Identity, Website, Graphic
                                 Design
                             </p>
                         </div>
 
-                        <div className="mt-[14.95vw] w-[72%]">
-                            <p className='text-sm tracking-tight leading-4 mb-3'>
+                        <div className="mt-[14.95vw] w-[52%]">
+                            <p className='text-base tracking-tight leading-5 mb-4'>
                                 Browse our work and get inspired by the
                                 possibilities we can create together.
                             </p>
