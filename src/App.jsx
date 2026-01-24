@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Video from './components/Video';
 import Studio from './components/Studio';
+import Work from './components/Work';
 
 const locomotiveScroll = new LocomotiveScroll();
 
@@ -15,6 +16,7 @@ function App() {
                 <Hero />
                 <Video />
                 <Studio />
+                <Work />
                 <div className='h-screen w-full'></div>
             </div>
         </>

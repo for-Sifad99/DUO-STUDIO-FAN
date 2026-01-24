@@ -22,19 +22,19 @@ const Studio = () => {
     }, []);
 
     return (
-        <div id="studio" className="w-full h-screen py-[11vw] px-[6.5vw] border-b border-zinc-700">
+        <div id="studio" className="w-full min-h-screen py-[11vw] px-[6.5vw] border-b border-zinc-700">
             <h2
                 id="head-text"
-                className="text-[4vw] tracking-tight font-semibold"
+                className="text-[6vw] tracking-tight font-semibold"
             >
-                We are Duo Studio,
+                Duo Studio
             </h2>
             <div
                 id="middle-container"
-                className="w-full h-[70%] flex items-center justify-between mt-[2vw]"
+                className="w-full h-[70%] flex items-center justify-between mt-[5vw]"
             >
-                <div id="left-text" className="w-[30%]">
-                    <h1 className="text-[3vw] font-medium tracking-tighter leading-10.5">
+                <div id="left-text" className="w-[40%]">
+                    <h1 className="text-[3.5vw] font-normal tracking-tighter leading-11 mt-auto">
                         A CREATIVE COLLECTIVE MADE TO UNLOCK YOUR BRANDS'S
                         POTENTIAL
                     </h1>
@@ -51,7 +51,7 @@ const Studio = () => {
                         Born in the DC area - now serving clients worldwide.
                     </p>
 
-                    <button className="w-full py-1 bg-[#EDBFFF] text-xs text-black rounded-full capitalize font-bold">
+                    <button className="w-full py-1.5 bg-[#EDBFFF] text-sm text-black rounded-full capitalize font-medium">
                         About Us
                     </button>
                 </div>
