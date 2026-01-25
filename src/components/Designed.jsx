@@ -21,13 +21,13 @@ const Designed = () => {
             },
         });
     }, []);
-    
+
     return (
         <div
             id="designed"
-            className="relative min-h-screen w-full py-[11vw]  border-b border-zinc-700"
+            className="relative min-h-screen w-full py-[8vw] px-[6.5vw] border-b border-zinc-700"
         >
-            <div className="absolute top-[20%] w-full text-center flex justify-center items-center px-[6.5vw]">
+            <div className="absolute top-[14%] w-full text-center flex justify-center items-center -ml-[6.5vw]">
                 <p className="w-[22%] font-medium tracking-tighter leading-[1.3vw] uppercase">
                     Disgined to bring out the trouth of your brand
                 </p>
