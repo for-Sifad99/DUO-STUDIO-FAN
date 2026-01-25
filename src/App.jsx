@@ -6,6 +6,7 @@ import Video from './components/Video';
 import Studio from './components/Studio';
 import Work from './components/Work';
 import Designed from './components/Designed';
+import Mentions from './components/Mentions';
 
 const locomotiveScroll = new LocomotiveScroll();
 
@@ -19,6 +20,7 @@ function App() {
                 <Studio />
                 <Work />
                 <Designed />
+                <Mentions />
                 <div className='h-screen w-full'></div>
             </div>
         </>

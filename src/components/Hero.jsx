@@ -41,10 +41,10 @@ const Hero = () => {
     }, []);
 
     return (
-        <div className="w-full flex flex-col items-center justify-center text-center mt-[11%]">
+        <div className="w-full flex flex-col items-center justify-center text-center mt-[12.5%]">
             <div
                 id="head-line"
-                className="text-[7.5vw] font-medium leading-22 tracking-tighter pb-[6%]"
+                className="text-[7.6vw] font-medium leading-25 tracking-tighter pb-[5.5%]"
             >
                 <h1 id="left-head">A design studio made</h1>
                 <h1 id="right-head">to elevate your brand</h1>
